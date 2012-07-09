@@ -1,0 +1,7 @@
+# Xcode Tools
+
+Collection of scripts and code snippets for Xcode.
+
+## Code Snippets Installation
+
+Run `install-snippets` to copy all code snippets in `CodeSnippets` to `$HOME/Library/Developer/Xcode/UserData/CodeSnippets/` and restart Xcode.

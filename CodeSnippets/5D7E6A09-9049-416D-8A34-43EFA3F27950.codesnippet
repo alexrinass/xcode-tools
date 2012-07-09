@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>eqsp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if ((self.&lt;#property#&gt; != otherObject.&lt;#property#&gt;) &amp;&amp; ![self.&lt;#property#&gt; isEqualToString:otherObject.&lt;#property#&gt;]) {
+    return NO;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5D7E6A09-9049-416D-8A34-43EFA3F27950</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Checks if a NSString property is equal on two objects.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>String Property Equal Check</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

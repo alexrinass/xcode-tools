@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/bin/mkdir -p $HOME/Library/Developer/Xcode/UserData/CodeSnippets/
+/bin/cp -fv CodeSnippets/* $HOME/Library/Developer/Xcode/UserData/CodeSnippets/

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>eqdp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if ((self.&lt;#property#&gt; != otherObject.&lt;#property#&gt;) &amp;&amp; ![self.&lt;#property#&gt; isEqualToDate:otherObject.&lt;#property#&gt;]) {
+        return NO;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>43C0D2EC-B7CE-4FB1-AF6D-63CC22BAE3ED</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Checks if a NSDate property is equal on two objects.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Date Property Equal Check</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

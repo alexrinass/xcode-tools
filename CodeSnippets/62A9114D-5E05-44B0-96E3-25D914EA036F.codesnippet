@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewcontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Initialization
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (!(self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+        return nil;
+    }
+    
+    [self initialize];
+    
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)decoder {
+    if (!(self = [super initWithCoder:decoder])) {
+        return nil;
+    }
+    
+    [self initialize];
+    
+    return self;
+}
+
+- (void)initialize {
+    // Common initialization code
+}
+
+#////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - NSNibAwaking Protocol
+
+- (void)awakeFromNib {
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>62A9114D-5E05-44B0-96E3-25D914EA036F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Used for commonly initializing ViewControllers from initWithCoder and initWithNibName.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewController Initialization</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
