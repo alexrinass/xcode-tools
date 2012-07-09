@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ ! -d $HOME/Library/Developer/Xcode/UserData/CodeSnippets ]; then
+	echo "No directory ~/Library/Developer/Xcode/UserData/CodeSnippets."
+	exit 1
+fi
+
+/bin/cp -v $HOME/Library/Developer/Xcode/UserData/CodeSnippets/*.codesnippet CodeSnippets/

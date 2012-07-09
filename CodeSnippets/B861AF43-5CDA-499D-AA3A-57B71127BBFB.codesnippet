@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragma</string>
+	<string>extern_impl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark - &lt;#label#&gt;
-</string>
+	<string>NSString *const &lt;#key#&gt; = &lt;#value#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>916B1680-0A4D-4681-9697-BE8958DB2578</string>
+	<string>B861AF43-5CDA-499D-AA3A-57B71127BBFB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Insert a pragma mark for better readability</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Pragma mark</string>
+	<string>Extern NSString implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

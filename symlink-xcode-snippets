@@ -1,0 +1,14 @@
+#!/bin/sh
+
+SCRIPT_BASEDIR=$(cd $(dirname $0);pwd)
+XCODE_SNIPPETS_DIR=$SCRIPT_BASEDIR/CodeSnippets
+
+if [ -d $HOME/Library/Developer/Xcode/UserData/CodeSnippets ]; then
+	echo "Moving existing $HOME/Library/Developer/Xcode/UserData/CodeSnippets out of the way into /tmp/"
+	/bin/mv -v $HOME/Library/Developer/Xcode/UserData/CodeSnippets /tmp/	
+fi
+
+/bin/mkdir -p $HOME/Library/Developer/Xcode/UserData
+
+cd $HOME/Library/Developer/Xcode/UserData
+/bin/ln -vs $XCODE_SNIPPETS_DIR CodeSnippets
